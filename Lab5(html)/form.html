@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Формы</title>
+		<meta cherset = "UTF-8">
+	</head>
+	<body>
+		<a href="index.html">На главную</a>
+        <br>
+		<a href="photo.html">Тут страница с фоткой</a>
+		</li>
+		<h2>А вот и формы</h2>
+		<p>
+            <input type="color">
+            <br>
+
+            <form action = "/cgi-bin/html5.cgi" method = "get">
+                  Дата и время : <input type = "datetime-local" name = "newinput" />
+             </form>
+            <br>
+
+            <form action = "/cgi-bin/html5.cgi" method = "get">
+                  Введите email : <input type = "email" name = "newinput" />
+                  <input type = "submit" value = "submit" />
+             </form>
+            <br>
+
+            <input type="radio" name="sex" value="male">Выбери это<br>
+            <input type="radio" name="sex" value="female">Или это<br>
+            <br>
+
+			<label for="firstname">Имя: </label>
+			<input type="text" id="firstname">
+			<br><br>
+
+            <label for="f">Ползунок: </label>
+			<input type="range" id="f">
+			<br><br>
+
+            <label for="search">Поиск: </label>
+			<input type="search" id="search">
+            <br><br>
+
+			<input type="submit" value="Да">
+			<br><br>
+
+             <input type="reset">
+             <br>
+		</p>
+		<p>Возраст(18-100): 
+			<form action = "/cgi-bin/html5.cgi" method = "get" >
+			<input type = "number"  min = "18" max = "100" step "1"  />
+		</p>
+	</body>
+</html>
